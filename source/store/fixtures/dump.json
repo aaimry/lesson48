@@ -1,0 +1,145 @@
+[
+{
+    "model": "store.products",
+    "pk": 7,
+    "fields": {
+        "title": "banana",
+        "description": "Отсутстувет",
+        "category": "fruits",
+        "residue": 100,
+        "price": "90.00"
+    }
+},
+{
+    "model": "store.products",
+    "pk": 8,
+    "fields": {
+        "title": "кукуруза",
+        "description": "желтая",
+        "category": "vegetables",
+        "residue": 100,
+        "price": "70.00"
+    }
+},
+{
+    "model": "store.products",
+    "pk": 10,
+    "fields": {
+        "title": "bulochki",
+        "description": "Отсутстувет",
+        "category": "bakery",
+        "residue": 0,
+        "price": "45.00"
+    }
+},
+{
+    "model": "store.products",
+    "pk": 11,
+    "fields": {
+        "title": "milk",
+        "description": "Отсутстувет",
+        "category": "beverage",
+        "residue": 0,
+        "price": "50.00"
+    }
+},
+{
+    "model": "store.products",
+    "pk": 12,
+    "fields": {
+        "title": "wasing powder",
+        "description": "for white clothes",
+        "category": "other",
+        "residue": 86,
+        "price": "452.00"
+    }
+},
+{
+    "model": "store.products",
+    "pk": 13,
+    "fields": {
+        "title": "apples",
+        "description": "Отсутстувет",
+        "category": "fruits",
+        "residue": 2324,
+        "price": "75.00"
+    }
+},
+{
+    "model": "store.products",
+    "pk": 14,
+    "fields": {
+        "title": "coca-cola",
+        "description": "1,5l",
+        "category": "beverage",
+        "residue": 500,
+        "price": "70.00"
+    }
+},
+{
+    "model": "store.products",
+    "pk": 15,
+    "fields": {
+        "title": "baton",
+        "description": "Отсутстувет",
+        "category": "bakery",
+        "residue": 49,
+        "price": "11.00"
+    }
+},
+{
+    "model": "store.products",
+    "pk": 16,
+    "fields": {
+        "title": "beer",
+        "description": "hoegaarden",
+        "category": "beverage",
+        "residue": 83,
+        "price": "120.00"
+    }
+},
+{
+    "model": "store.products",
+    "pk": 17,
+    "fields": {
+        "title": "salat oliv'e",
+        "description": "Отсутстувет",
+        "category": "other",
+        "residue": 120,
+        "price": "80.00"
+    }
+},
+{
+    "model": "store.products",
+    "pk": 18,
+    "fields": {
+        "title": "strawberry jam",
+        "description": "Отсутстувет",
+        "category": "other",
+        "residue": 40,
+        "price": "200.00"
+    }
+},
+{
+    "model": "store.products",
+    "pk": 19,
+    "fields": {
+        "title": "tomatoes",
+        "description": "marinovanye",
+        "category": "vegetables",
+        "residue": 583,
+        "price": "87.00"
+    }
+},
+{
+    "model": "store.products",
+    "pk": 20,
+    "fields": {
+        "title": "rtegr",
+        "description": "Отсутстувет",
+        "category": "other",
+        "residue": 1,
+        "price": "4342465.00"
+    }
+}
+]
