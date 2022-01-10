@@ -7,5 +7,5 @@ class ProductsForm(forms.Form):
     description = forms.CharField(max_length=2000, required=False, label='Описание', widget=forms.Textarea())
     category = forms.ChoiceField(choices=CATEGORY_CHOICES, required=True, label='Категория',
                                  initial=CATEGORY_CHOICES[0][1])
-    residue = forms.IntegerField(required=True, lable='Остаток')
-    price = forms.FloatField(max_lenght=7, required=True, label='Цена')
+    residue = forms.IntegerField(min_value=0, required=True, label='Остаток')
+    price = forms.DecimalField(max_digits=9, decimal_places=2, required=True, label='Цена')

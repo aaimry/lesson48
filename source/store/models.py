@@ -9,7 +9,7 @@ class Products(models.Model):
     description = models.TextField(max_length=2000, null=True, blank=True, verbose_name='Описание')
     category = models.CharField(choices=CATEGORY_CHOICES, max_length=15, default='other', verbose_name='Категория')
     residue = models.IntegerField(null=False, verbose_name='Остаток')
-    price = models.FloatField(max_length=7, null=False, verbose_name='Цена')
+    price = models.DecimalField(max_digits=9, decimal_places=2, null=False, verbose_name='Цена')
 
 
 def __str__(self):
